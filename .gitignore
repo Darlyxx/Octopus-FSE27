@@ -1,0 +1,37 @@
+# Local credentials (including copied environment files)
+.env*
+!.env.example
+**/.env*
+!**/.env.example
+*.pem
+*.key
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Experiment outputs, device data, and temporary files
+logs/
+output/
+outputs/
+tmp/
+*.log
+*.apk
+*.aab
+
+# Paper drafts and local editing tools
+fse2027/
+tools/
+test.py
+.submission/
+octopus-source.zip
+*.code-workspace
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
